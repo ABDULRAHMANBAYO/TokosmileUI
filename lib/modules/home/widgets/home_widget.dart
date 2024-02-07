@@ -53,9 +53,9 @@ class _HomeWidgetState extends State<HomeWidget> {
                         url: AssetResources.shoppingCartIcon,
                         height: 25.h,
                         width: 25.w),
-                    const CustomBadge(
-                      count: "2",
-                    )
+                    // const CustomBadge(
+                    //   count: "2",
+                    // )
                   ],
                 ),
               ),
@@ -116,11 +116,11 @@ class StickyBestProductDelegate extends SliverPersistentHeaderDelegate {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(
-              S.current.bestSaleProducts,
-              style: GoogleFonts.plusJakartaSans(
-                  fontWeight: FontWeight.w700, fontSize: 16.sp),
-            ),
+            // Text(
+            //   S.current.bestSaleProducts,
+            //   style: GoogleFonts.plusJakartaSans(
+            //       fontWeight: FontWeight.w700, fontSize: 16.sp),
+            // ),
             TextButton(
               onPressed: () {},
               child: Text(
